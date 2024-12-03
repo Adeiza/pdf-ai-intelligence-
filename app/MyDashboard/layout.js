@@ -4,7 +4,6 @@ import { SideBar } from './_components/SideBar'
 
 function layout({children}) {
   return (
-    
     <div>
       <div className='md:w-64 h-screen fixed'>
         <SideBar />
@@ -14,8 +13,7 @@ function layout({children}) {
         <div className='p-10'>
           {children}
         </div>
-      </div>
-        
+      </div> 
     </div>
   )
 }
